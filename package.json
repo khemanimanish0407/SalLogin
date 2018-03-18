@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "API",
+  "main": "server.js",
+  "author": {
+    "name": "manish.khemani"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "connect-couchbase": "^0.2.9",
+    "connect-multiparty": "^2.0.0",
+    "convict": "^1.0.1",
+    "cookie-parser": "^1.4.0",
+    "csurf": "^1.8.3",
+    "elasticsearch": "^13.3.1",
+    "express": "^4.13.3",
+    "express-ipfilter": "^0.0.20",
+    "express-session": "^1.11.3",
+    "helmet": "^0.12.0",
+    "jsonschema": "^1.0.2",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "morgan": "^1.6.1",
+    "mssql": "^2.3.1",
+    "node-uuid": "^1.4.3",
+    "nodemailer": "^1.8.0",
+    "nodemailer-smtp-transport": "^1.0.3",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "q": "^1.4.1",
+    "restler": "^3.4.0",
+    "winston": "^1.1.1",
+    "winston-elasticsearch": "^0.5.0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+	"logger": {
+		"path": "./logs/"
+	},
+	"server": {
+		"session": {
+			"cookieSecret": "demoapi"
+		},
+		"CORS": {
+			"allowedHosts": [
+				"http://localhost:3000",
+				"http://192.168.0.171:3000",
+				"http://192.168.0.14:3000",
+				"http://192.168.0.245:3000",
+				"http://192.168.0.155:3000"
+			]
+		},
+		"bodyParser": {
+			"limit": "100mb"
+		},
+		"security": {
+			"emailSalt": "$2a$10$e.oPc.qgbyUcDAhZjK2Mhf"
+		}
+	},
+	"sql": 
+	{
+		"host": "127.0.0.1",
+		"database": 
+		{
+			"test":"test"
+		},
+        "defaultDatabase": "test",
+		"user": "Manish",
+		"password": "Alex@123",
+		"isConnectionEncrypted": true,
+		"connectionTimeout": 600000,
+		"requestTimeout": 600000,
+		"connectionPool": 
+		{
+			"maximum": 2,
+			"minimum": 0,
+			"idleTimeoutMillis": 600000
+		}
+	}
+	
+}
